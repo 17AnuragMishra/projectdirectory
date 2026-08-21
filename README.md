@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 GitRevive
+# 🌌 ProjectRevive
 
 **Discover, Adopt & Revive Open Source & Abandoned Codebases.**
 
