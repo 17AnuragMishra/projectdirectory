@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="32" height="32" rx="7" fill="url(#bgGrad)" />
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" stroke="#292524" stroke-width="1" />
+
+  <!-- Git Revival Tree Lines -->
+  <!-- Main vertical commit trunk -->
+  <path d="M 9 7 L 9 25" stroke="#78716c" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Revival branch curve arching to pulse node -->
+  <path d="M 9 19 C 9 14 14 12 19 12" stroke="url(#sparkGrad)" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Base Commit Nodes -->
+  <circle cx="9" cy="8" r="2.2" fill="#1c1917" stroke="#a8a29e" stroke-width="1.6" />
+  <circle cx="9" cy="24" r="2.2" fill="#1c1917" stroke="#a8a29e" stroke-width="1.6" />
+
+  <!-- Revival Active Node -->
+  <circle cx="19.5" cy="12" r="3" fill="url(#sparkGrad)" filter="url(#glow)" />
+  <circle cx="19.5" cy="12" r="1.4" fill="#fffbeb" />
+
+  <!-- Energy Pulse Spark Diamond -->
+  <path d="M 25 12 L 26.5 10.5 L 25 9 L 23.5 10.5 Z" fill="url(#nodeGrad)" />
+  <path d="M 25.5 15 L 26.5 14 L 25.5 13 L 24.5 14 Z" fill="#fdba74" opacity="0.8" />
+</svg>

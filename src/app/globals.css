@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 24 15% 5%; /* #0d0b0a near-black */
+    --foreground: 40 20% 96%; /* #faf8f5 warm ivory */
+
+    --card: 24 12% 8%; /* #161311 dark surface */
+    --card-foreground: 40 20% 96%;
+
+    --popover: 24 14% 9%; /* #1a1714 */
+    --popover-foreground: 40 20% 96%;
+
+    --primary: 24 95% 53%; /* #f97316 ember orange */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 24 10% 13%; /* #25211e stone */
+    --secondary-foreground: 40 15% 90%;
+
+    --muted: 24 8% 14%; /* #272320 */
+    --muted-foreground: 30 10% 62%; /* #a49e99 */
+
+    --accent: 188 86% 53%; /* #22d3ee cool cyan */
+    --accent-foreground: 24 15% 5%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 24 8% 16%; /* #2e2926 selective border */
+    --input: 24 8% 16%;
+    --ring: 24 95% 53%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0b0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2622;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3e3732;
+}
+
+/* Custom selection */
+::selection {
+  background: rgba(249, 115, 22, 0.25);
+  color: #fff7ed;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* Pulse animation for revival commit nodes */
+@keyframes revivalPulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+.animate-revival-pulse {
+  animation: revivalPulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

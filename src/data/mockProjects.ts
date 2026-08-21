@@ -1,0 +1,121 @@
+import { Project, CodebaseRequest, ActivityItem } from '@/types';
+
+export const INITIAL_PROJECTS: Project[] = [];
+export const INITIAL_REQUESTS: CodebaseRequest[] = [];
+export const INITIAL_ACTIVITIES: ActivityItem[] = [];
+
+export const TECH_STACK_OPTIONS = [
+  // Frontend & UI
+  'React',
+  'Next.js',
+  'Vue.js',
+  'Nuxt.js',
+  'Svelte',
+  'SvelteKit',
+  'Angular',
+  'SolidJS',
+  'Astro',
+  'Remix',
+  'Tailwind CSS',
+  'TypeScript',
+  'JavaScript',
+  'HTML5',
+  'CSS3',
+  'Shadcn UI',
+  'Framer Motion',
+  'Three.js',
+  'WebGL',
+  'Canvas API',
+  'Redux Toolkit',
+  'Zustand',
+  'TanStack Query',
+  'TanStack Table',
+
+  // Backend & APIs
+  'Node.js',
+  'Express.js',
+  'NestJS',
+  'Hono',
+  'FastAPI',
+  'Django',
+  'Flask',
+  'Go',
+  'Rust',
+  'Python',
+  'C++',
+  'C#',
+  '.NET Core',
+  'Java',
+  'Spring Boot',
+  'Kotlin',
+  'Ruby on Rails',
+  'PHP',
+  'Laravel',
+  'GraphQL',
+  'REST API',
+  'gRPC',
+  'WebSockets',
+  'WebRTC',
+  'tRPC',
+
+  // Databases & ORMs
+  'PostgreSQL',
+  'Neon Database',
+  'Supabase',
+  'MySQL',
+  'MongoDB',
+  'Redis',
+  'SQLite',
+  'Prisma',
+  'Drizzle ORM',
+  'Mongoose',
+  'Cassandra',
+  'ClickHouse',
+  'Elasticsearch',
+  'Pinecone',
+  'ChromaDB',
+  'Qdrant',
+
+  // DevOps & Cloud
+  'Docker',
+  'Kubernetes',
+  'AWS',
+  'Google Cloud',
+  'Cloudflare Workers',
+  'Vercel',
+  'Serverless',
+  'Terraform',
+  'GitHub Actions',
+  'Nginx',
+  'Linux',
+
+  // AI & Data Science
+  'OpenAI API',
+  'Anthropic Claude',
+  'LangChain',
+  'LlamaIndex',
+  'PyTorch',
+  'TensorFlow',
+  'Hugging Face',
+  'Ollama',
+
+  // Mobile & Cross-platform
+  'React Native',
+  'Flutter',
+  'Swift',
+  'SwiftUI',
+  'Android',
+  'Electron',
+  'Tauri',
+  'Capacitor',
+
+  // Tools & Security
+  'Zod',
+  'JWT',
+  'OAuth 2.0',
+  'WebAssembly',
+  'Tailwind',
+  'Vite',
+  'Turborepo'
+];
+
