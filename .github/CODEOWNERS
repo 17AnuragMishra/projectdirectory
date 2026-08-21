@@ -1,0 +1,22 @@
+# GitHub CODEOWNERS File
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# These owners are automatically requested for review when someone opens a
+# Pull Request. Combined with Branch Protection Rules ("Require review from Code Owners"),
+# this strictly prevents any changes from being merged into main without your explicit sign-off.
+
+# Global owner for all files across the entire repository
+*       @17AnuragMishra
+
+# Critical application source code and API routes
+/src/   @17AnuragMishra
+
+# Database migrations, ingestion scripts & discovery engine
+/scripts/   @17AnuragMishra
+
+# Security, GitHub Actions workflows & repository configuration
+/.github/   @17AnuragMishra
+/package.json   @17AnuragMishra
+/next.config.ts   @17AnuragMishra
+/tsconfig.json   @17AnuragMishra
+/LICENSE   @17AnuragMishra
