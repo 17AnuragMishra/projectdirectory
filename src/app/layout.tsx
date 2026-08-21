@@ -89,7 +89,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': 'https://projectrevive.dev/#website',
       url: 'https://projectrevive.dev',
-      name: 'GitRevive',
+      name: 'ProjectRevive',
       description: 'Platform to discover, adopt, and contribute to abandoned and open-source codebases.',
       potentialAction: {
         '@type': 'SearchAction',
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       '@type': 'SoftwareApplication',
       '@id': 'https://projectrevive.dev/#application',
-      name: 'GitRevive',
+      name: 'ProjectRevive',
       applicationCategory: 'DeveloperApplication',
       operatingSystem: 'Any',
       offers: {
@@ -113,7 +113,7 @@ const jsonLd = {
     {
       '@type': 'Organization',
       '@id': 'https://projectrevive.dev/#organization',
-      name: 'GitRevive',
+      name: 'ProjectRevive',
       url: 'https://projectrevive.dev',
       logo: 'https://projectrevive.dev/logo.png',
       sameAs: ['https://github.com/17AnuragMishra/projectdirectory'],

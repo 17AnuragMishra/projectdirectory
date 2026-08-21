@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 GitRevive
+# 🌌 ProjectRevive
 
 **Discover, Adopt & Revive Open Source & Abandoned Codebases.**
 
@@ -31,7 +31,7 @@ Every year, millions of high-potential developer tools, open-source libraries, S
 
 At the same time, millions of ambitious developers and aspiring founders spend hundreds of hours recreating basic boilerplate from scratch because they don't have an interesting, real-world project to adopt or contribute to.
 
-**GitRevive** bridges this gap:
+**ProjectRevive** bridges this gap:
 * **Recycle & Revive**: Prevents thousands of hours of developer intellectual effort from going to waste.
 * **Skip the 0-to-1 Boilerplate**: Enables developers to pick up half-built, high-quality codebases and immediately focus on the 1-to-N phase—shipping to production, fixing bugs, and growing users.
 * **Frictionless Succession**: Provides a structured platform with verified GitHub developer identity, in-app negotiation rooms, and private repository access-grant workflows.
@@ -144,7 +144,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🔍 Discovery Engine
 
-GitRevive includes an enterprise discovery engine (`scripts/discover.js`) with 35+ targeted search heuristics to unearth high-potential abandoned and maintainer-seeking repositories.
+ProjectRevive includes an enterprise discovery engine (`scripts/discover.js`) with 35+ targeted search heuristics to unearth high-potential abandoned and maintainer-seeking repositories.
 
 ```bash
 # Scan a specific category
@@ -176,7 +176,7 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ## 🔒 Security & Responsible Disclosure
 
-If you discover a security vulnerability within GitRevive, please review our security policy and open a confidential report or contact the maintainers directly. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within ProjectRevive, please review our security policy and open a confidential report or contact the maintainers directly. All security vulnerabilities will be promptly addressed.
 
 ---
 

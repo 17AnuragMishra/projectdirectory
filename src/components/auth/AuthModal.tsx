@@ -84,7 +84,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
           </Button>
 
           <p className="text-[11px] text-center text-zinc-500">
-            By signing in, you agree to participate as a verified GitHub developer on GitRevive.
+            By signing in, you agree to participate as a verified GitHub developer on ProjectRevive.
           </p>
         </div>
       </DialogContent>

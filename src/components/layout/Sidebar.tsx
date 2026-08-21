@@ -103,7 +103,7 @@ export function Sidebar({
               {!isCollapsed && (
                 <div className="flex items-center gap-1.5">
                   <span className="font-semibold text-sm tracking-tight text-stone-100">
-                    GitRevive
+                    ProjectRevive
                   </span>
                 </div>
               )}
