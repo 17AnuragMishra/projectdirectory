@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-We actively provide security updates for the following versions of GitRevive:
+We actively provide security updates for the following versions of ProjectRevive:
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -12,7 +12,7 @@ We actively provide security updates for the following versions of GitRevive:
 
 ## Reporting a Vulnerability
 
-The GitRevive project takes security issues seriously. If you discover a security vulnerability, please **DO NOT** open a public issue.
+The ProjectRevive project takes security issues seriously. If you discover a security vulnerability, please **DO NOT** open a public issue.
 
 Instead, please report the vulnerability privately by:
 1. Opening a [GitHub Private Vulnerability Report](https://github.com/17AnuragMishra/projectdirectory/security/advisories/new).

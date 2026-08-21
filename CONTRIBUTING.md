@@ -1,4 +1,4 @@
-# Contributing to GitRevive
+# Contributing to ProjectRevive
 
 Thank you for your interest in contributing to **ProjectRevive**! We welcome contributions from developers of all skill levels.
 
@@ -46,4 +46,4 @@ npm run build
 
 ## License
 
-By contributing to GitRevive, you agree that your contributions will be licensed under the [GNU Affero General Public License v3.0](LICENSE).
+By contributing to ProjectRevive, you agree that your contributions will be licensed under the [GNU Affero General Public License v3.0](LICENSE).

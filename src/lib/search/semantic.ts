@@ -121,7 +121,7 @@ export async function createEmbedding(text: string): Promise<number[]> {
       ...(config.provider === 'openrouter'
         ? {
             'HTTP-Referer': process.env.OPENROUTER_SITE_URL || 'http://localhost:3000',
-            'X-Title': process.env.OPENROUTER_APP_NAME || 'GitRevive',
+            'X-Title': process.env.OPENROUTER_APP_NAME || 'ProjectRevive',
           }
         : {}),
     },
@@ -153,7 +153,7 @@ export async function createEmbeddings(texts: string[]): Promise<number[][]> {
       ...(config.provider === 'openrouter'
         ? {
             'HTTP-Referer': process.env.OPENROUTER_SITE_URL || 'http://localhost:3000',
-            'X-Title': process.env.OPENROUTER_APP_NAME || 'GitRevive',
+            'X-Title': process.env.OPENROUTER_APP_NAME || 'ProjectRevive',
           }
         : {}),
     },
